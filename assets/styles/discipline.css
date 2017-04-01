@@ -1,0 +1,81 @@
+#filters ul { padding: 0; }
+
+* { box-sizing: border-box; }
+
+/* ---- Filter buttons ---- */
+
+.filter {
+	margin: 5px;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 0.5em 1.0rem;
+	font-weight: normal;
+	background-color: rgba(0,0,0,0);
+	color: #333333;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+}
+
+.filter:hover {
+	text-decoration: underline;
+}
+
+.filter:active,
+.filter.is-checked {
+	color: white;
+	background-color: #333333;
+	box-shadow: 0 15px 15px rgba(0,0,0,0.3), 0 11px 10px rgba(0,0,0,0.25);
+}
+
+/* ---- filter-group ---- */
+
+.filter-group:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- Grid ---- */
+
+.grid {
+	margin: 25px 0;
+}
+
+/* clear fix */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item:hover {
+	cursor: pointer;
+}
+.element-item {
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px;
+	width: 125px;
+	height: 125px;
+	margin: 8px;
+}
+
+.element-item > * {
+	margin: 0;
+	padding: 0;
+}
+
+.element-item .name {
+	text-align: center;
+	color: black;
+	font-size: 1.6rem;
+	font-weight: normal;
+}
+
+.element-item.humanities	{ background: #dc1eea; }
+.element-item.languages 	{ background: #1976D2; }
+.element-item.fine-arts 	{ background: #558B2F; }
+

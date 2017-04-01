@@ -1,0 +1,101 @@
+.main-header {
+	display: inline;
+}
+
+.discipline {
+	display: inline;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.program-info {
+	margin-top: 15px;
+	font-size: 1.5rem;
+}
+
+.programs-container {
+	margin-top: 15px;
+}
+
+.dropzone {
+	margin-top: 25px;
+	padding-top: 25px;
+	font-size: 2em;
+	color: black;
+	font-weight: bold;
+	border: 5px dashed transparent;
+	border-radius: 4px;
+	background-color: #9E9E9E;
+	height: 200px;
+	width: 100%;
+	transition: background-color 0.3s;
+}
+
+.drop-active { /* While dragging */
+	border-color: #2D2D2D;
+}
+
+.drop-target { /* Hovering over dropzone */
+	border-color: #29e;
+	color: #fff;
+	background-color: #29e;
+	border: solid 2px #fff;
+}
+
+/* Menu */
+.draggable:hover {
+	cursor: pointer;
+}
+
+.active {
+	background-color: #333333;
+	color: white;
+	-webkit-box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.27);
+	-moz-box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.27);
+	box-shadow: 0px 2px 6px 3px rgba(0,0,0,0.27);;
+}
+
+.draggable {
+	display: inline-block;
+	padding: 2px 25px;
+	margin: 10px;
+	font-size: 1.5em;
+	border: 2px solid #333333;
+	border-radius: 2px;
+}
+
+.colors {
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+}
+
+.colors li {
+	font-size: 3rem;
+	padding: 3px 15px;
+	margin-bottom: 10px;
+	border: 3px solid;
+	border-radius: 1px;
+}
+
+.left-side {
+	padding-left: 0;
+	/*border: 1px solid black;*/
+}
+
+.right-side {
+	padding: 10px;
+	/*border: 1px solid black;*/
+}
+
+.credits {
+	font-weight: bold;
+  	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	z-index: -1;
+}
+
+.info {
+	/*border: 1px solid black;*/
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Build your program</title>
+	<!-- Roboto Font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/styles/master.css">
+	<link rel="stylesheet" href="assets/styles/program.css">
+	<link rel="stylesheet" href="assets/styles/animsition.min.css">
+</head>
+<body>
+
+	<!-- Header -->
+	<div class="site-header"></div>
+	<div class="links"></div>
+	<div class="menu"></div>
+
+	<div class="wrapper">
+
+		<!-- Body -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+			
+					<!-- Program section -->
+					<?php require('includes/program.php') ?>
+
+				</div>
+			</div>
+		</div>
+
+	</div>	
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="app/libraries/animsition.min.js" charset="utf-8"></script>
+<script> $("#program").animsition(); </script>
+<script src="app/libraries/Chart.bundle.min.js"></script>
+<script src="app/libraries/interact.min.js"></script>
+<script src="app/program.js"></script>
+
+</body>
+</html>
